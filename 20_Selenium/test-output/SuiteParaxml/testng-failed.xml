@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteParaxml]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestfbLogin(failed)">
+    <parameter name="PASSW" value="Facebook@nik"/>
+    <parameter name="UNAME" value="er.nikhilpande@gmail.com"/>
+    <parameter name="URL" value="https://www.facebook.com/"/>
+    <classes>
+      <class name="yt_TestNG.Parameterization_xml_file">
+        <methods>
+          <include name="fbLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- yt_TestNG.Parameterization_xml_file -->
+    </classes>
+  </test> <!-- TestfbLogin(failed) -->
+</suite> <!-- Failed suite [SuiteParaxml] -->

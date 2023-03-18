@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="2" name="Test">
+    <classes>
+      <class name="_1_RestAssuredTests.Demo2_POST_request"/>
+      <class name="_1_RestAssuredTests.Demo5_Basic_validations_json"/>
+      <class name="_1_RestAssuredTests.Demo4_DELETE_Request"/>
+      <class name="_1_RestAssuredTests.Demo7_masterProgramm"/>
+      <class name="_1_RestAssuredTests.Demo3_PUT_Request"/>
+      <class name="_1_RestAssuredTests.Demo6_Basic_validations_XML"/>
+      <class name="_1_RestAssuredTests.Demo1_GET_request"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

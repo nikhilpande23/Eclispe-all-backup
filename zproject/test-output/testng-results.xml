@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-19T01:59:38 IST" name="Default suite" finished-at="2023-01-19T01:59:55 IST" duration-ms="17009">
+    <groups>
+    </groups>
+    <test started-at="2023-01-19T01:59:38 IST" name="Default test" finished-at="2023-01-19T01:59:55 IST" duration-ms="17009">
+      <class name="com.abc.A1">
+        <test-method signature="newWebdrivermanagerPOPUP()[pri:1, instance:com.abc.A1@595b007d]" started-at="2023-01-19T01:59:38 IST" name="newWebdrivermanagerPOPUP" finished-at="2023-01-19T01:59:50 IST" duration-ms="11295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newWebdrivermanagerPOPUP -->
+        <test-method signature="newWebdrivermanagerNORMAL()[pri:2, instance:com.abc.A1@595b007d]" started-at="2023-01-19T01:59:50 IST" name="newWebdrivermanagerNORMAL" finished-at="2023-01-19T01:59:55 IST" duration-ms="5636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newWebdrivermanagerNORMAL -->
+      </class> <!-- com.abc.A1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

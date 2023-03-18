@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteParaxml">
+  <test name="TestfbLogin">
+  
+ 
+  <parameter name="URL" value="https://www.facebook.com/" />
+  <parameter name="UNAME" value="er.nikhilpande@gmail.com"/>
+  <parameter name="PASSW" value="Facebook@nik" />
+  
+    <classes>
+      <class name="yt_TestNG.Parameterization_xml_file"/>
+    </classes>
+  </test> <!-- TestfbLogin -->
+</suite> <!-- SuiteParaxml -->

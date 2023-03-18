@@ -1,0 +1,142 @@
+package samepackage;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import pageObject.LoginPage_POM;
+import pageObject.POM_createcustomer;
+
+public class Login_StepDef {
+	
+	public WebDriver driver;
+	public LoginPage_POM loginPg;
+	public POM_createcustomer pomcreatecustomer;
+
+	
+	 /////////////////// COMMON STEPS /////////////////////////
+	
+	@Given("User launch Chrome browser")
+	public void user_launch_chrome_browser() {
+	    WebDriverManager.chromedriver().setup();
+	    driver=new ChromeDriver();
+	    loginPg = new LoginPage_POM(driver);
+	    pomcreatecustomer=new POM_createcustomer(driver);
+	}
+
+	@When("user opens URL {string}")
+	public void user_opens_url(String url) {
+	    driver.get(url);
+	}
+
+	@When("user enters email as {string} and Password as {string}")
+	public void user_enters_email_as_and_password_as(String email, String passw) throws InterruptedException {
+		
+	    loginPg.enteruserid(email);
+	    loginPg.enterPassword(passw);
+	    
+	}
+
+	@When("click on Login")
+	public void click_on_login() throws InterruptedException {
+	    loginPg.clicklogin();
+	    
+	}
+	
+	 /////////////////// LOGIN FEATURE STEPS /////////////////////////
+
+	@Then("Page title should be {string}")
+	public void page_title_should_be(String expectedTitle) {
+	   String actualTitle = driver.getTitle();
+	    if (actualTitle.equals(expectedTitle)) {
+			Assert.assertTrue(true); //pass
+		}
+	    else {
+			Assert.assertTrue(false);
+		}
+	}
+
+	@When("user click on Logout link")
+	public void user_click_on_logout_link() throws InterruptedException {
+	    loginPg.logoutbtn();
+	    
+	}
+
+	
+	    
+	    /////////////////// CREATE CUSTOMER /////////////////////////
+	    
+	@Then("user can view Dashboard")
+	public void user_can_view_dashboard() {
+		String expectedtitle = "Dashboard / nopCommerce administration"; // title we knew
+	    String actualtitle= pomcreatecustomer.getpagetitle(); //see which title will come
+	    
+	    if (expectedtitle.equals(actualtitle)) {
+			Assert.assertTrue(true);
+		}
+	    else {
+	    	Assert.assertTrue(false);
+		}
+	    
+	}
+	@When("user clicks on Customer menu")
+	public void user_clicks_on_customer_menu() {
+		pomcreatecustomer.clickcustomerMenu();
+	}
+	@And("user clicks on Customer option")
+	public void user_clicks_on_customer_option() {
+		pomcreatecustomer.clickcustomerOption();
+	}
+	@And("user clicks on Add new button")
+	public void user_clicks_on_add_new_button() {
+		pomcreatecustomer.clickAddNewbutton();
+	}
+	@Then("user can view Add a new customer page")
+	public void user_can_view_add_a_new_customer_page() {
+	   String expectedtitle="Categories / nopCommerce administration";
+	   String actualtitle= pomcreatecustomer.getpagetitle(); //see which title will come
+	    
+	    if (expectedtitle.equals(actualtitle)) {
+			Assert.assertTrue(true);
+		}
+	    else {
+	    	Assert.assertTrue(false);
+		}
+	}
+	@When("user enters customers information")
+	public void user_enters_customers_information() {
+		pomcreatecustomer.emaildtbx("kingvk1818@gmail.com");
+		pomcreatecustomer.Passwordtbx("KING1818");
+		pomcreatecustomer.firstNametbx("Virat");
+		pomcreatecustomer.LastNametbx("Kohli");
+		pomcreatecustomer.clickgender();
+		pomcreatecustomer.DateOfBirthtbx("11/05/1988");
+		pomcreatecustomer.CompanyNametbx("Indian Cricket Team");
+		pomcreatecustomer.clickIsTaxExempt();
+		pomcreatecustomer.NewsSlettertbx();
+		pomcreatecustomer.ManagerOfVendorLISTBOX();
+		pomcreatecustomer.clicksavebutton();
+		
+		
+		
+	}
+	@And("clicks on save button")
+	public void clicks_on_save_button() {
+	    
+	}
+	@Then("user can view confornation message")
+	public void user_can_view_confornation_message() {
+	    
+	}
+	   
+	@And("close the browser")
+	public void close_the_browser() throws InterruptedException {
+	Thread.sleep(2000);
+	driver.close();
+	}
+}

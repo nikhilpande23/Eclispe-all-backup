@@ -1,0 +1,25 @@
+1671362395819	Rename package 'pageObject'
+1671362478032	Delete element
+1671362591380	Rename type 'LoginPage_POM'
+1671362636557	Rename type 'POM_createcustomer'
+1671362670109	Rename type '_11pom_homepage'
+1671362692510	Rename type '_12pom_homepage'
+1671362758890	Rename type 'Login_Runner'
+1671362800376	Rename type 'Login_StepDef'
+1671362816568	Copy compilation unit
+1671362830207	Copy compilation unit
+1671362839002	Delete element
+1671362893390	Rename resource 'samepackage'
+1671363498562	Delete element
+1671363522185	Rename resource 'featureFile_package'
+1671363539128	Rename resource 'featurefile_package'
+1671364228041	Delete element
+1671437146202	Copy packages
+1671458478148	Delete element
+1671458517944	Delete element
+1671459633514	Delete element
+1671459807924	Delete element
+1671480687986	Rename type '_1runner_loginpage'
+1671532787245	Rename resource 'Login.feature'
+1671532805029	Rename resource 'customers.feature'
+1671637735274	Delete element

@@ -1,0 +1,90 @@
+1667323924271	Rename resource 'Test_Data'
+1667324185034	Delete element
+1667324213686	Delete element
+1667324251600	Delete element
+1667324272482	Delete element
+1667324326415	Delete element
+1667362464132	Delete element
+1667364058337	Rename type 'DDL_excel_file_basic1'
+1667364077197	Rename type 'DDL_excel_file_basic2'
+1667364126223	Rename type 'DDL_excel_file_basic2_TypeData'
+1667551825684	Rename type 'DDT_ReadMutiData1'
+1667551974721	Copy compilation units
+1667552001463	Rename type 'DDL_excel_file_basic1_getData'
+1667552017538	Rename type 'DDL_ReadMutiData1'
+1667552030529	Rename type 'DDL_NonStaticMethodOfExcel'
+1667552054088	Rename type 'DDL_excel_file_basic3_TypeData'
+1667552070717	Rename type 'DDL_excel_file_basic2_getData'
+1667552142919	Move compilation units
+1667552161025	Delete elements
+1667552227074	Move compilation unit
+1667552294188	Move compilation unit
+1667552344077	Move compilation units
+1667552469896	Rename package 'Nik_Selenium_package'
+1667552507664	Rename package 'zNik_Selenium_package'
+1667552526507	Rename package 'Practice_Selenium'
+1667552622728	Rename type 'Absolute_Xpath_Amazon'
+1667552668710	Rename type 'xpath_attribute'
+1667552729119	Move compilation units
+1667552909295	Move compilation units
+1667552961180	Rename type 'Absolute_Xpath'
+1667552999730	Rename type 'flipkart_iPhone13_Xpath'
+1667553189148	Move compilation units
+1667553227202	Rename type 'WebEleent_getText'
+1667553400231	Move compilation unit
+1667553439210	Move compilation unit
+1667553471812	Rename type 'GetUrl'
+1667553511885	Rename type 'Get_url'
+1667553540694	Move compilation unit
+1667553692733	Move compilation units
+1667553720630	Move compilation unit
+1667553744715	Move compilation units
+1667553819313	Rename type 'Get_CSS_value'
+1667553889483	Move compilation units
+1667553921281	Rename type 'WebElement_getText'
+1667553949923	Rename type 'WebElement_isEnabled'
+1667554099966	Move compilation unit
+1667554125379	Move compilation unit
+1667554168740	Move compilation unit
+1667554293143	Rename type 'TagNameLocator'
+1667554478689	Rename type 'DDT_excel_file_basic1_getData'
+1667554496398	Rename type 'DDT_excel_file_basic2_getData'
+1667554517083	Rename type 'DDT_excel_file_basic3_TypeData'
+1667554668068	Rename type 'find_ElementS'
+1667554756464	Rename type 'FindElements_All_links_of_Flipkart'
+1667555263720	Rename type 'Synchronization'
+1667555271523	Move compilation unit
+1667555328818	Move compilation unit
+1667555351595	Move compilation unit
+1667555374616	Rename type 'Explicit_Wait'
+1667555393197	Rename type 'implicit_wait'
+1667555459308	Move compilation units
+1667555480650	Rename type 'MultiSelect_Textbox'
+1667555498269	Rename type 'single_select_Listbox'
+1667555522823	Move compilation unit
+1667555707530	Move compilation units
+1667555761973	Rename type 'Handling_Tab_basic'
+1667555775046	Rename compilation unit 'Handling_Tab_without_loops.java'
+1667555992729	Rename type 'ScrollBar_basic_scrolldown'
+1667556010169	Rename type 'ScrollBar_scrolldown'
+1667556063423	Copy compilation unit
+1667556074546	Delete element
+1667556124243	Move compilation unit
+1667556155199	Rename type 'Get_Thread'
+1667556333831	Move compilation units
+1667556431416	Rename type 'Robot_class_basic'
+1667556479658	Move compilation unit
+1667556836138	Rename type 'Trial'
+1667556859006	Move compilation unit
+1667556965896	Rename type 'Xpath_Absolute'
+1667556992220	Rename type 'Xpath_by_Absolute'
+1667572737360	Delete element
+1667573355300	Delete element
+1667573460201	Delete element
+1667573542983	Delete element
+1667621771214	Rename compilation unit 'a_basic_1.java'
+1667621883348	Rename type 'Customer'
+1667627503730	Move compilation unit
+1667652206335	Rename type 'Generic_Library'
+1667653439827	Rename type 'Generic_Library_excel'
+1667653478247	Delete element

@@ -1,0 +1,23 @@
+1667831304079	Rename type 'DDT_PropertyFile_actitime'
+1667976166325	Rename type 'Excel'
+1667976205577	Rename type 'GenericPropertyFile'
+1667977944862	Delete elements
+1667977977127	Delete elements
+1667977990255	Delete elements
+1667978820767	Delete element
+1667995464799	Delete element
+1667995637368	Delete element
+1668050736464	Delete element
+1668071129918	Rename type 'a1_Alert_Popup'
+1668071181863	Rename type 'Popup_Hidden_Division'
+1668071393169	Rename type 'Popup_NotificationPopup'
+1668071450065	Rename type 'Popup_AuthentificationPopup'
+1668071560364	Rename type 'Popup_File_Upload'
+1668071599961	Rename type 'Popup_File_Upload_Monstar_Website'
+1668071725446	Rename type 'Popup_File_Download_by_RobotClass'
+1668071759275	Rename type 'Popup_Child_window_basic'
+1668071777405	Rename type 'Popup_Child_window_close_childWindow'
+1668071795128	Rename type 'Popup_Child_window_using_SwitchTo'
+1668101697018	Delete element
+1668241067080	Delete element
+1668272971541	Rename package 'Popup'

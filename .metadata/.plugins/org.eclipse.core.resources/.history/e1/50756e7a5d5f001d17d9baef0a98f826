@@ -1,0 +1,41 @@
+package testNG;
+
+import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+public class Annoations {
+	@BeforeClass
+	public void launchBrowser() {
+		Reporter.log("browser launched", true);
+	}
+	
+	@AfterClass
+	public void closeBrowser() {
+		Reporter.log("browser closed", true);
+	}
+	
+	@AfterMethod
+	public void logout() {
+		Reporter.log("logout successfully", true);
+	}
+	
+	@Test
+	public void customercustomer() {
+		Reporter.log("customer created successfully", true);
+	}
+	
+	@BeforeSuite
+	public void databaseopened() {
+		Reporter.log("database opened", true);
+	}
+	
+	@AfterSuite
+	public void databaseclosed() {
+		Reporter.log("database closed", true);
+	}
+}

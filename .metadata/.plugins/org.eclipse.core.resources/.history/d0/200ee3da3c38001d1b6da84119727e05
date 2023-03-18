@@ -1,0 +1,15 @@
+package zz__Practice__zz;
+
+public class abc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i=10;
+		abc ref=new abc();
+		System.out.println(ref.i);
+		ref=null;
+		System.out.println(ref.i);
+
+	}
+
+}

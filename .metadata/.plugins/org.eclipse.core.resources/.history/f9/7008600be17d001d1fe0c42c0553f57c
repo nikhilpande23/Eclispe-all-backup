@@ -1,0 +1,24 @@
+package samepackage;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+
+	@RunWith(Cucumber.class)
+
+	@CucumberOptions
+	(
+features = {"./src/test/resources/samepackage/Login.feature" ,"./src/test/resources/samepackage/customers.feature"},
+		glue = "./src/test/java/samepackage" ,
+		dryRun = false ,
+		monochrome = true ,
+		plugin = {"pretty", "html:target/report.html"} 
+		
+	)
+
+	public class Login_Runner extends AbstractTestNGCucumberTests
+	{
+// 	class will be empty
+	}
